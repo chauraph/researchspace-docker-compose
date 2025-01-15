@@ -33,6 +33,7 @@ services:
 
        # runtime data folder with config files and ad-hoc templates 
        - ./researchspace/runtime-data:/runtime-data
+       - ./murten-app:/apps/murten-app
     depends_on:
       - blazegraph
       - digilib 
